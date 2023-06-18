@@ -24,12 +24,12 @@ class Cat extends Animal {
 }
 
 const dog = new Dog("Golden Retriever");
-console.log(dog.species);
+// console.log(dog.species);
 dog.makeSound();
 dog.bark();
 
 const cat = new Cat("Domestic Cat");
-console.log(cat.species);
+// console.log(cat.species);
 cat.makeSound();
 cat.purr();
 
